@@ -17,7 +17,7 @@ header{
 }
 
 body{
-    background-image: url(/background1.png);  
+    background-image: url(/background3.png);  
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -72,7 +72,7 @@ footer{
 }
 
 svg:hover{
-    fill: rgb(124, 124, 124);
+    fill: rgb(94, 90, 91);
 }
 
 svg{
