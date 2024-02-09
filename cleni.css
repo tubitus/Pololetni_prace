@@ -39,14 +39,6 @@ img{
     height: 70px;
 }
 
-footer{
-    background-color: rgba(0, 0, 0, 0.603);
-    height: 100px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
 .wrapper{
     display: flex;
     justify-content: center;
@@ -104,4 +96,18 @@ h1{
 
 .main{
     padding-left: 10px;
+}
+
+.insignie{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+
+
+.popis_c{
+    margin-left: 151px;
+    
 }
