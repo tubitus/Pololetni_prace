@@ -18,7 +18,7 @@ header{
 }
 
 body{
-    background-image: url(/background3.png);  
+    background-image: url(/Foto/background3.png);  
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -83,4 +83,21 @@ ul{
     left: 145px;
     top: 10px;
     width: max-content;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+svg:hover{
+    fill: rgb(45, 83, 255);
+}
+
+svg{
+    transition: 0.2s ease-in-out;
+    width: 70px;
+    height: 70px;
+    background-color: aliceblue;
+    border-radius: 20px;
 }

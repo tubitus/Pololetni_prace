@@ -17,7 +17,7 @@ header{
 }
 
 body{
-    background-image: url(/background1.png);  
+    background-image: url(/Foto/background1.png);  
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -73,11 +73,13 @@ footer{
 }
 
 svg:hover{
-    fill: rgb(124, 124, 124);
+    fill: rgb(45, 83, 255);
 }
 
 svg{
     transition: 0.2s ease-in-out;
+    background-color: aliceblue;
+    border-radius: 20px;
 }
 
 .footer-container{
