@@ -35,24 +35,13 @@ a:hover, a:active {
     color: rgb(145, 229, 255);
 }
 
-img{
+.logo{
     width: 70px;
     height: 70px;
 }
 
-.wrapper{
-    display: flex;
-    justify-content: center;
-}
-
 .icon{
     display: flex; 
-}
-
-.lorem{
-    display: flex;
-    color: aliceblue;
-    margin: 0px 300px;
 }
 
 svg:hover{
@@ -63,29 +52,32 @@ svg{
     transition: 0.2s ease-in-out;
 }
 
-.footer-container{
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-
 h3{
     display: flex;
     justify-content: center;
 }
 
-li{
-    list-style-type: none;
-}
-
-p{
-    color: rgb(201, 201, 201);
-}
 
 h1{
     color: rgb(201, 201, 201);
 }
 
-.main{
+.title{
     padding-left: 10px;
+}
+
+img{
+    width: 920px;
+    height: 600px;
+    margin-left: 5px;
+}
+
+#PJ{
+    width: 425px;
+    height: 600px;
+}
+
+#les{
+    width: 485px;
+    height: 600px;
 }
