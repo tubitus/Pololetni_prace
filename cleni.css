@@ -14,6 +14,7 @@ header{
     align-items: center;
     gap: 10px;
     margin-right: 10px;
+    font-size: 20px;
 }
 
 body{
@@ -39,55 +40,11 @@ img{
     height: 70px;
 }
 
-.wrapper{
-    display: flex;
-    justify-content: center;
-}
-
-.icon{
-    display: flex; 
-}
-
-.cara{
-    display: flex;
-    justify-content:center ;
-    margin: auto;
-    gap: 30px;
-    border-bottom: 2px solid white;
-    max-width: 300px;
-}
-
-.lorem{
-    display: flex;
-    color: aliceblue;
-    margin: 0px 300px;
-}
-
-svg:hover{
-    fill: rgb(94, 90, 91);
-}
-
-svg{
-    transition: 0.2s ease-in-out;
-}
-
-.footer-container{
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-
-h3{
-    display: flex;
-    justify-content: center;
-}
-
-li{
-    list-style-type: none;
-}
-
 p{
     color: rgb(201, 201, 201);
+    margin-bottom: 100px;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
 }
 
 h1{
@@ -105,9 +62,25 @@ h1{
     margin-bottom: 15px;
 }
 
+ul{
+    margin-right: 120px;
+}
 
-
-.popis_c{
+.popis_d{
     margin-left: 151px;
-    
+    position: absolute;
+    top: 145px;
+}
+
+.USAF{
+    position: absolute;
+    right: 50%;
+    top: 145px;
+}
+
+.popis_u{
+    position: absolute;
+    left: 145px;
+    top: 10px;
+    width: max-content;
 }
