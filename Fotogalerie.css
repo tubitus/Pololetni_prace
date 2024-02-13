@@ -1,4 +1,3 @@
-
 body{
     margin: 0px; 
 }
@@ -44,23 +43,12 @@ a:hover, a:active {
     display: flex; 
 }
 
-svg:hover{
-    fill: rgb(45, 83, 255);
-}
-
 svg{
     transition: 0.2s ease-in-out;
     width: 70px;
     height: 70px;
-    background-color: aliceblue;
     border-radius: 20px;
 }
-
-h3{
-    display: flex;
-    justify-content: center;
-}
-
 
 h1{
     color: rgb(201, 201, 201);
@@ -84,9 +72,4 @@ img{
 #les{
     width: 485px;
     height: 600px;
-}
-
-.wrapper{
-    display: flex;
-    justify-content: center;
 }
