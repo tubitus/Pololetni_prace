@@ -28,6 +28,7 @@ a{
     border-radius: 3px;
     color: rgb(245, 245, 245);
     text-decoration: none;
+    padding-right: 20px;
 }
 
 a:hover, a:active {
@@ -47,7 +48,9 @@ p{
 }
 
 h1{
-    color: rgb(201, 201, 201);
+    color: rgb(255, 179, 16);
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
 }
 
 .main{
@@ -74,7 +77,7 @@ ul{
 .USAF{
     position: absolute;
     right: 50%;
-    top: 145px;
+    top: 175px;
 }
 
 .popis_u{
@@ -86,7 +89,40 @@ ul{
 
 svg{
     transition: 0.2s ease-in-out;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 20px;
+}
+
+.ZEUS{
+    position: absolute;
+    right: 15%;
+    top: 175px;
+}
+
+.popis_z{
+    position: absolute;
+    left: 145px;
+    top: 10px;
+    font-size: 40px;
+}
+
+.test{
+    background-color: rgb(1, 1, 161);
+    border-radius: 50%;
+    padding: 0px;
+}
+
+.nadpis{
+    display: flex;
+    gap: 420px;
+}
+
+#feary{
+    margin-top: 65px;
+}
+
+#end{
+    position: relative;
+    left: 35px;
 }
