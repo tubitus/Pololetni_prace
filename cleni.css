@@ -12,8 +12,14 @@ header{
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-right: 10px;
-    font-size: 20px;
+    margin: auto;
+    font-size: 30px;
+}
+
+#dis{
+    line-height: 10px;
+    font-size: 30px;
+    margin-bottom: 0px;
 }
 
 body{
@@ -88,9 +94,8 @@ ul{
 }
 
 svg{
-    transition: 0.2s ease-in-out;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 20px;
 }
 
@@ -115,7 +120,7 @@ svg{
 
 .nadpis{
     display: flex;
-    gap: 420px;
+    gap: 510px;
 }
 
 #feary{
@@ -124,5 +129,5 @@ svg{
 
 #end{
     position: relative;
-    left: 35px;
+    left: 50px;
 }

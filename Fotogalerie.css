@@ -12,8 +12,8 @@ header{
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-right: 10px;
-    font-size: 20px;
+    margin: auto;
+    font-size: 30px;
 }
 
 body{
@@ -21,6 +21,11 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+#dis{
+    line-height: 10px;
+    font-size: 30px;
 }
 
 a{
@@ -38,6 +43,7 @@ a:hover, a:active {
 .logo{
     width: 70px;
     height: 70px;
+    margin: 0px;
 }
 
 .icon{
@@ -45,7 +51,6 @@ a:hover, a:active {
 }
 
 svg{
-    transition: 0.2s ease-in-out;
     width: 70px;
     height: 70px;
     border-radius: 20px;
@@ -53,10 +58,6 @@ svg{
 
 h1{
     color: rgb(201, 201, 201);
-}
-
-.title{
-    padding-left: 10px;
 }
 
 img{

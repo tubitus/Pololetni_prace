@@ -5,14 +5,15 @@ body{
 header{
     background-color: rgba(0, 0, 0, 0.63);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .acka{
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-right: 10px;
+    margin: auto;
+    font-size: 30px;
 }
 
 body{
@@ -22,13 +23,23 @@ body{
     background-size: cover;
 }
 
+.logo{
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+}
+
 a{
     display: flex;
     border-radius: 3px;
     color: rgb(245, 245, 245);
     text-decoration: none;
-    font-size: 20px;
     padding-right: 20px;
+}
+
+#dis{
+    line-height: 10px;
+    font-size: 30px;
 }
 
 a:hover, a:active {
@@ -41,9 +52,8 @@ img{
 }
 
 svg{
-    transition: 0.2s ease-in-out;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 20px;
 }
 
