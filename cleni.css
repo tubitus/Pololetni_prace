@@ -48,9 +48,9 @@ img{
 
 p{
     color: rgb(255, 255, 255);
-    margin-bottom: 100px;
     font-size: 30px;
     text-shadow: 2px 2px black;
+    padding-left: 10px;
 }
 
 h1{
@@ -63,71 +63,48 @@ h1{
     padding-left: 10px;
 }
 
-.insignie{
-    width: 120px;
-    height: 120px;
-    display: flex;
-    margin-bottom: 15px;
-}
-
-ul{
-    margin-right: 120px;
-}
-
-.popis_d{
-    margin-left: 151px;
-    position: absolute;
-    top: 145px;
-}
-
-.USAF{
-    position: absolute;
-    right: 50%;
-    top: 175px;
-}
-
-.popis_u{
-    position: absolute;
-    left: 145px;
-    top: 10px;
-    width: max-content;
-}
-
 svg{
     width: 70px;
     height: 70px;
     border-radius: 20px;
 }
 
-.ZEUS{
-    position: absolute;
-    right: 15%;
-    top: 175px;
-}
-
-.popis_z{
-    position: absolute;
-    left: 145px;
-    top: 10px;
-    font-size: 40px;
-}
-
-.test{
-    background-color: rgb(1, 1, 161);
-    border-radius: 50%;
-    padding: 0px;
-}
-
 .nadpis{
     display: flex;
-    gap: 510px;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 30px;
 }
 
-#feary{
-    margin-top: 65px;
+.container-card{
+    display: flex;
+    justify-content: space-between;
 }
 
-#end{
-    position: relative;
-    left: 50px;
+.container-card-DEVGRU{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.container-card-USAF{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.container-card-ZEUS{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.card{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.733);
+    width: max-content; 
+    align-items: center;
+    border-radius: 30px;
+    margin: 15px;
+    padding: 10px;
 }
