@@ -5,7 +5,7 @@ body{
 header{
     background-color: rgba(0, 0, 0, 0.63);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .acka{
@@ -17,27 +17,10 @@ header{
 }
 
 body{
-    background-image: url(/Foto/background2.png);  
+    background-image: url(/Foto/background1.png);  
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-#dis{
-    line-height: 10px;
-    font-size: 30px;
-}
-
-a{
-    display: flex;
-    border-radius: 3px;
-    color: rgb(245, 245, 245);
-    text-decoration: none;
-    padding-right: 20px;
-}
-
-a:hover, a:active {
-    color: rgb(145, 229, 255);
 }
 
 .logo{
@@ -46,8 +29,27 @@ a:hover, a:active {
     margin: 0px;
 }
 
-.icon{
-    display: flex; 
+a{
+    display: flex;
+    border-radius: 3px;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    padding-right: 20px;
+    
+}
+
+#dis{
+    line-height: 10px;
+    font-size: 30px;
+}
+
+a:hover, a:active {
+    color: rgb(11, 73, 3);
+}
+
+img{
+    width: 70px;
+    height: 70px;
 }
 
 svg{
@@ -56,23 +58,26 @@ svg{
     border-radius: 20px;
 }
 
-h1{
-    color: rgb(201, 201, 201);
+h3{
+    color: aliceblue;
 }
 
-img{
-    width: 920px;
-    height: 600px;
-    margin-left: 5px;
+h2{
+    color: aliceblue;
 }
 
-#PJ{
-    width: 425px;
-    height: 600px;
+p{
+    color: aliceblue;
 }
 
-#les{
-    width: 485px;
-    height: 600px;
+.line{
+    text-decoration: underline;
 }
 
+.spec{
+    display: flex;
+}
+
+#big{
+    font-weight: bold;
+}
