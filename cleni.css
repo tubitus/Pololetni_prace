@@ -23,7 +23,7 @@ header{
 }
 
 body{
-    background-image: url(/Foto/background3.png);  
+    background-image: url(/Foto/Baner_uprava.png);  
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -73,12 +73,13 @@ svg{
     display: flex;
     justify-content: space-between;
     padding-left: 0px;
-    padding-right: 30px;
+    padding-right: 120px;
 }
 
 .container-card{
     display: flex;
     justify-content: space-between;
+    margin-top: 60px;
 }
 
 .container-card-DEVGRU{
@@ -100,11 +101,32 @@ svg{
 }
 
 .card{
-    display: flex;
     background-color: rgba(0, 0, 0, 0.733);
     width: max-content; 
     align-items: center;
     border-radius: 30px;
     margin: 15px;
     padding: 10px;
+}
+
+ul{
+    padding-left:0 ;
+    list-style: none;
+    margin-bottom: -60px;
+    margin-right: 70px;
+}
+
+li{
+    position: relative;
+    top: -69px;
+    left: 65px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    padding-left: 15px;
+}
+
+#role{
+    font-size: 20px;
+    padding-bottom: 10px;
 }
