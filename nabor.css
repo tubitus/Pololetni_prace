@@ -58,16 +58,41 @@ svg{
     border-radius: 20px;
 }
 
+.container{
+    max-width: 1600px;
+}
+
+.card_CZ{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+}
+
+.container{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 h3{
     color: aliceblue;
+    margin: 10px 5px;
 }
 
 h2{
     color: aliceblue;
+    margin: 10px 5px;
 }
 
 p{
     color: aliceblue;
+    margin: 10px 5px;
+}
+
+ul{
+    padding: 0;
+    margin: 10px 20px;
 }
 
 .line{
@@ -78,6 +103,6 @@ p{
     display: flex;
 }
 
-#big{
+.spec p{
     font-weight: bold;
 }
