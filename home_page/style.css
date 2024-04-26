@@ -20,7 +20,7 @@ body{
     background-image: url(/Foto/background1.png);  
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover;;
 }
 
 .container{
@@ -75,12 +75,15 @@ h1{
 }
 
 .CZ{
-    margin-left: 20px;
+
+    padding-left: 20px;
     width: 700px;
+    background-color: rgba(0, 0, 0, 0.63);
 }
 
 .EN{
     width: 700px;
+    background-color: rgba(0, 0, 0, 0.63);
 }
 
 ul{
@@ -150,13 +153,13 @@ ul{
     }
 
     .CZ{
-    margin-left: 10px;
+    margin-left: 0;
     width: auto;
-    border-bottom: solid rgb(255, 255, 255);
+    border-radius: 0%;
     }
 
     .EN{
-    margin-left: 10px;
+
     width: auto;
     }
 }

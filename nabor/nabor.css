@@ -5,7 +5,7 @@ body{
 header{
     background-color: rgba(0, 0, 0, 0.63);
     display: flex;
-    justify-content: space-between
+    margin: auto;
 }
 
 .acka{
@@ -35,7 +35,6 @@ a{
     color: rgb(245, 245, 245);
     text-decoration: none;
     padding-right: 20px;
-    
 }
 
 #dis{
@@ -44,7 +43,7 @@ a{
 }
 
 a:hover, a:active {
-    color: rgb(11, 73, 3);
+    color: rgb(145, 229, 255);
 }
 
 img{
@@ -105,4 +104,26 @@ ul{
 
 .spec p{
     font-weight: bold;
+}
+
+.footer-container{
+    margin-top: 220px;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.footer-acka{
+    display: flex;
+    justify-content: center;
+}
+
+.propagace{
+    display: flex;
+    margin-bottom: 0;
+    justify-content: right;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.dis{
+    line-height: 45px;
+    font-size: 30px;
 }
