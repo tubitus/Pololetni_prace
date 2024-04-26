@@ -87,6 +87,21 @@ ul{
     padding: 0px;
 }
 
+.footer-container{
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.footer-acka{
+    display: flex;
+    justify-content: center;
+}
+
+.propagace{
+    display: flex;
+    margin-bottom: 0;
+    justify-content: right;
+    margin-right: 20px;
+}
+
 @media screen and (max-width: 1000px){
     .acka{
     font-size: 15px;
@@ -105,11 +120,11 @@ ul{
     }
 
     a{
-        display: flex;
-        border-radius: 3px;
-        color: rgb(245, 245, 245);
-        text-decoration: none;
-        padding-right: 0px;
+    display: flex;
+    border-radius: 3px;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    padding-right: 0px;
     }
 
     .logo{
@@ -118,30 +133,30 @@ ul{
     }
 
     .container{
-        display: block;
-        width: 1000px;
+    display: block;
+    width: 1000px;
     }
 
     p{
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 2px black;
-        line-height: 5vw;
-        font-size:5vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    line-height: 5vw;
+    font-size:5vw;
     }
 
     h1{
-        font-size:5vw;
-        margin-top: 0;
+    font-size:5vw;
+    margin-top: 0;
     }
 
     .CZ{
-        margin-left: 10px;
-        width: auto;
-        border-bottom: solid rgb(255, 255, 255);
+    margin-left: 10px;
+    width: auto;
+    border-bottom: solid rgb(255, 255, 255);
     }
 
     .EN{
-        margin-left: 10px;
-        width: auto;
+    margin-left: 10px;
+    width: auto;
     }
 }
